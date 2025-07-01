@@ -8,8 +8,7 @@ if (process.env.NODE_ENV !== "production") {
 const dropBtn = document.querySelector(".dropbtn");
 dropBtn.addEventListener("click", myFunction);
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+// When the user clicks on the button, toggle between hiding and showing the dropdown content
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
